@@ -8,7 +8,7 @@ class Customers:
     def __str__(self):
         return f"{self.first_name} {self.second_name}. {self.city}. Баланс:{self.balance} руб."
 
-customer_1 = Customers('Иван','Петров','Москва',50)
+customer_1 = Customers('Иван','Петров','Москва',4000)
 print(customer_1)
 
 
